@@ -21,11 +21,11 @@ TEST(method_tests, l_push) {
 }
 TEST(exeption_tests, empty_stack) {
   Stack<int> stack;
-  EXPECT_ANY_THROW(stack.pop());
+  EXPECT_ANY_THROW(stack.pop( ));
 }
 
 TEST(method_tests, g_pop) {
   Stack<int> stack;
   stack.push(7);
-  EXPECT_EQ(stack.pop(), 7);
+  EXPECT_EQ(stack.pop( ), 7);
 }
