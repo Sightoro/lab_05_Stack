@@ -2,8 +2,8 @@
 
 #ifndef INCLUDE_EXAMPLE_HPP_
 #define INCLUDE_EXAMPLE_HPP_
-
 #include <iostream>
+
 template <typename T>
 class Stack
 { private:
