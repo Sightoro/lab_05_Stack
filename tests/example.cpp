@@ -29,4 +29,3 @@ TEST(method_tests, g_pop) {
   stack.push(7);
   EXPECT_EQ(stack.pop(), 7);
 }
-
